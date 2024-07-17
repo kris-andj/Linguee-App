@@ -1,0 +1,173 @@
+.word_scramble {
+    background:linear-gradient(90deg, #7bdff2 0%, #0c6577 100%);
+    width: 100%;
+    color: white;
+    position: relative;
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+  }
+  
+  .word_scramble h1 {
+    margin: 0;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+  }
+  
+  .word_scramble .message {
+    width: 400px;
+    height: 100px;
+    background: #F2B5D4;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 3px 20px 0px #d0d0d0;
+    border-radius: 10px;
+  }
+  
+  .word_scramble .message p {
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.5rem;
+  }
+  
+  .word_scramble .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-size: contain;
+    background: url('./Assets/pozadina.jpg') no-repeat center center fixed;
+    background-size: 1300px;
+    padding: 50px 0px;
+    width: 100%;
+    height: 500px;
+    position: relative;
+  }
+  
+  .word_scramble .board {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .word_scramble .square_bg {
+    background: #cfcfcf;
+    width: 50px;
+    height: 60px;
+    font-size: 24px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+    font-weight: 600;
+    border-radius: 5px;
+    border: 3px solid black;
+  }
+  
+  .word_scramble .scrambled_word {
+    font-size: 35px;
+    color: rgb(0, 0, 0) ;
+    background-color: rgb(255, 255, 255);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  .word_scramble .field {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  
+  .word_scramble .field input {
+    width: 70%;
+    height: 40px;
+    font-size: 24px;
+    border-radius: 5px;
+  }
+  
+  .word_scramble .field input::placeholder {
+    padding-left: 10px;
+    font-size: 24px;
+  }
+  
+  .word_scramble .field button {
+    width: 20%;
+    height: 40px;
+    font-size: 24px;
+    border-radius: 5px;
+  }
+  
+  .word_scramble .start_game {
+    margin-top: 20px;
+    background: #F2B5D4;
+    color: #333;
+    width: 40%;
+    height: 60px;
+    font-size: 24px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .word_scramble .start_game.new {
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40%;
+  }
+  
+ 
+@media (max-width: 768px) {
+  .word_scramble .message {
+    width: 90%; 
+    max-width: 300px; 
+  }
+
+  .word_scramble .start_game,
+  .word_scramble .start_game.new {
+    width: 60%; 
+  }
+
+  .word_scramble .field input,
+  .word_scramble .field button {
+    width: 60%; 
+  }
+}
+
+
+@media (max-width: 480px) {
+  .word_scramble h1 {
+    font-size: 2rem; 
+    height: 60px; 
+  }
+
+  .word_scramble .scrambled_word {
+    font-size: 28px; 
+    margin-bottom: 10px; 
+  }
+
+  .word_scramble .field input,
+  .word_scramble .field button {
+    width: 70%; 
+  }
+}

@@ -1,0 +1,48 @@
+.consultations-kontejner {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .consultations-kontejner h2 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333333;
+  }
+  
+  .consultations-list {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
+    border-radius: 8px;
+  }
+  
+  .consultations-list th,
+  .consultations-list td {
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .consultations-list th {
+    background-color: #1795cb;
+    color: #ffffff;
+  }
+  
+  .consultations-list td {
+    border-top: 1px solid #dddddd;
+  }
+  
+  .consultations-list tr:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .consultations-list td:first-child {
+    font-weight: bold;
+    color: #009688;
+  }
+  

@@ -1,0 +1,57 @@
+
+.table-container {
+  margin: 20px auto;
+  width: 100%;
+}
+
+.table-header {
+  background-color: #87CEEB; 
+}
+
+.table-header th {
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  text-align: left;
+}
+
+.table-row:nth-child(even) {
+  background-color: #F0F8FF; 
+}
+
+.table-row:hover {
+  background-color: #0cbed5; 
+}
+
+.table-cell {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.action-button {
+  background: linear-gradient(90deg, #69d7ec 0%, #f0abcd 100%);
+  color: rgb(14, 0, 38);
+  border: none;
+  padding: 10px 20px; 
+  border-radius: 10px; 
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+
+.action-button:hover {
+  background-color: #FF69B4; 
+}
+
+.dialog-content {
+  color: #000080; 
+}
+
+.dialog-title {
+  background-color: #4682B4; 
+  color: white;
+}
+
+.dialog-actions {
+  padding: 10px;
+}

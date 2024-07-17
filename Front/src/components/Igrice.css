@@ -1,0 +1,18 @@
+
+.igrice{
+   text-align: center;
+    padding: 20px;
+}
+.igrice h2{
+    font-size: 2rem;
+}
+.igrice label{
+    font-size: 1rem;
+    margin-right: 10px;
+}
+
+.igrice select{
+    font-size: 1rem;
+    padding: 5px;
+    margin-bottom: 20px;
+}

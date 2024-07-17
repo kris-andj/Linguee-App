@@ -1,0 +1,129 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    margin: auto;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    width: 600px;
+    background: #F2B5D4;
+    padding-bottom: 30px;
+}
+
+.log {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.text {
+    color: #456bd5;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.underline {
+    width: 61px;
+    height: 6px;
+    background: #0019bead;
+    border-radius: 9px;
+}
+
+.inputs {
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 480px;
+    height: 80px;
+    background: #eaeaea;
+    border-radius: 6px;
+}
+
+.input img {
+    margin: 0px 30px;
+}
+
+.input input {
+    height: 50px;
+    width: 400px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #797979;
+    font-size: 18px;
+}
+
+.forgot-password {
+    padding-left: 62px;
+    margin-top: 27px;
+    color: #797979;
+    font-size: 18px;
+    margin-left: 80px;
+}
+
+
+.forgot-password span {
+    color: #000;
+    cursor: pointer;
+}
+.input image {
+    height: 8px;
+    width: 8px;
+}
+
+.submit-container {
+    display: flex;
+    justify-content: center; 
+    margin-top: 20px;
+    align-items: center;
+    margin-left :20px; 
+}
+
+.submit {
+    
+    border: none;
+    background-color: #7bdff2; 
+    color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: background-color 0.3s;
+}
+
+.submit.gray {
+    background-color: gray; 
+}
+
+.submit:hover {
+    background-color: #0c6577; 
+}
+
+.error {
+    color: red;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.success-message {
+    color: #0c6577;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+

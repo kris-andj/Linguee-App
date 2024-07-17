@@ -1,0 +1,99 @@
+.prikazi-ocene-container {
+    max-width: 600px; 
+    margin: 0 auto;
+    height: 100%;
+    background-color: #F2B5D4;
+    padding: 30px; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .prikazi-ocene-form {
+    max-width: 100%; 
+    margin: 0 auto;
+    padding: 40px; 
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .prikazi-ocene-form:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .prikazi-ocene-form div {
+    margin-bottom: 30px; 
+  }
+  
+  .prikazi-ocene-form label {
+    display: block;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 10px;
+    font-size: 18px; 
+  }
+  
+  .prikazi-ocene-form input[type="text"] {
+    width: 100%;
+    padding: 20px; 
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 20px; 
+    color: #555;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .prikazi-ocene-form input[type="text"]:focus {
+    border-color: #007bff;
+    background-color: #fff;
+  }
+  
+  .prikazi-ocene-form button {
+    display: block; 
+    width: 100%; 
+    padding: 20px; 
+    margin-top: 20px; 
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(90deg, #69d7ec 0%, #f0abcd 100%);
+    color: white;
+    font-size: 20px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .prikazi-ocene-form button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+  }
+  
+  .prikazi-ocene-form button:active {
+    background-color: #003f7f;
+  }
+  
+  .greska {
+    color: red;
+    margin-top: 20px; 
+    font-size: 18px; 
+  }
+  
+  .ocene-container {
+    margin-top: 30px; 
+    padding: 30px; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+  }
+  
+  .ocene-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .ocene-container li {
+    padding: 10px; 
+    font-size: 18px; 
+  }

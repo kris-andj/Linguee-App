@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.profesori-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 50px;
+    padding: 20px;
+}
+
+.profesor {
+    border: 1px solid #a34a85;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 250px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: #fff;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+
+.profesor img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0; 
+}
+
+.info {
+    padding: 10px;
+}
+
+.info h3 {
+    margin: 10px 0;
+    font-size: 25px;
+}
+
+.info p {
+    margin: 5px 0;
+    color: #03224b;
+}
+
+
+

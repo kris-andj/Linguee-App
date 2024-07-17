@@ -1,0 +1,172 @@
+.navbar {
+  background: linear-gradient(90deg, #7bdff2 0%, #0c6577 100%);
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  max-width: 1500px;
+  padding: 0 20px;
+}
+
+.navbar-logo {
+  color: #fff;
+  justify-self: start;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  margin-right: 100px;
+  
+}
+
+.fa-typo3 {
+  height: 50px;
+  width: 50px;
+  margin-left: 0.5rem;
+  font-size: 1.8rem;
+}
+
+.nav-menu {
+  display: flex;
+  list-style: none;
+  text-align: center;
+  grid-gap: 5px;
+}
+
+.nav-item {
+  position: relative;
+  margin: -30px 10px;
+}
+
+.nav-links {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  height: 100%;
+  transition: border-bottom 0.2s ease-out;
+}
+
+.nav-links:hover {
+  border-bottom: 4px solid #fff;
+}
+
+.menu-icon {
+  display: none;
+}
+
+.profile-icon {
+  margin-left: 20px;
+  position: relative;
+  top: 50px; 
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-top: 50px;
+}
+
+.profile-icon img {
+  height: 50px; 
+  width: 50px;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+
+.profile-icon img:hover {
+  transform: scale(1.1);
+}
+
+.sub-menu {
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 0;
+  background-color: #fff;
+  display: none;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.nav-item:hover .sub-menu {
+  display: flex;
+}
+
+.sub-menu:hover {
+  display: flex;
+}
+
+@media screen and (max-width: 960px) {
+  .navbar-container {
+    padding: 0 10px;
+  }
+
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 80px;
+    left: -100%;
+    opacity: 0;
+    transition: all 0.5s ease;
+    background: #242222;
+    z-index: 1;
+  }
+
+  .nav-menu.active {
+    left: 0;
+    opacity: 1;
+  }
+
+  .nav-item {
+    margin: 10px 0;
+  }
+
+  .nav-links {
+    text-align: center;
+    padding: 2rem 0;
+    width: 100%;
+    display: table;
+  }
+
+  .navbar-logo {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
+  }
+
+  .menu-icon {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-100%, 60%);
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+
+  .fa-times {
+    color: #ffffff;
+    font-size: 2rem;
+  }
+
+  .profile-icon {
+    margin-left: 20px;
+    margin-right: 20px;
+    top: auto; 
+  }
+}

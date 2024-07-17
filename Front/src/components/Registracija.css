@@ -1,0 +1,48 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 600px;
+    background: #f2b5d4;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+.inputs{
+    margin-top: 20px;
+}
+
+.input{
+    margin-bottom: 15px;
+}
+
+.submit-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.input image {
+    height: 8px;
+    width: 8px;
+}
+.submit{
+    display: flex;
+    margin-top: 20px;
+    
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 59px;
+    color: #fff;
+    background: #7bdff2;
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.error{
+    color: #ff0000;
+    margin-top: 20px;
+    text-align: center;
+}

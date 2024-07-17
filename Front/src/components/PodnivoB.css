@@ -1,0 +1,81 @@
+.podnivoB {
+    display: flex;
+    flex-direction: space-around;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    min-height: 100vh;
+  }
+  
+  .level-heading {
+    font-size: 1.5rem;
+    margin-bottom: 1rem; 
+  }
+  
+  .image-container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    gap: 2rem; 
+  }
+  
+  .image-label {
+    font-size: 1.2rem;
+  }
+  
+  .image {
+    margin-left: 60px;
+    margin-right: 60px;
+    max-width: 500px; 
+    border: 2px solid #4CAF50; 
+    border-radius: 5px; 
+  }
+  
+  .enroll-button {
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    background: linear-gradient(90deg, #69d7ec 0%, #f0abcd 100%);
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .enroll-button:hover {
+    background-color: #45a049; 
+  }
+  
+  
+@media (max-width: 960px) {
+  .podnivoB {
+    flex-direction: column; 
+    padding: 1rem;
+  }
+
+  .image-container {
+    margin: 0.5rem; 
+  }
+
+  .image {
+    max-width: 80%; 
+  }
+
+  .enroll-button {
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .image {
+    max-width: 100%; 
+  }
+
+  .enroll-button {
+    padding: 0.6rem 1.2rem;
+    font-size: 0.9rem;
+  }
+}

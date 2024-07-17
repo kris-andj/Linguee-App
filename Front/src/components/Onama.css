@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+ 
+  body {
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+  }
+ 
+  .hover-effect-container {
+    background-image: url('./Assets/Illustration4.svg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   
+  }
+ 
+  #box {
+    max-width: 80%;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.8); 
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center; 
+   
+  }
+ 
+  .alpha {
+    color: #ffffff;
+    font-size: 2rem;
+    display: inline-block;
+    width: 100%; 
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 50; 
+  }
+ 
+  .char {
+    display: inline-block;
+    margin: 0 1px; 
+   
+  }
+ 
+  .char.animated {
+    color: #74cbe0;
+    animation: ani 0.7s ease-in-out 1;
+   
+  }
+ 
+  @keyframes ani {
+    0% {
+      transform: scale(1.2, 0.5);
+    }
+    16% {
+      transform: scale(1.2, 0.5);
+    }
+    25% {
+      transform: scale(1.2, 0.5);
+    }
+    32% {
+      transform: scale(0.8, 1.1);
+    }
+    48% {
+      transform: scale(0.95, 1);
+    }
+    64% {
+      transform: scale(0.8, 1.2);
+    }
+    80% {
+      transform: scale(1.15, 1);
+    }
+    87% {
+      transform: scale(1.15, 1);
+    }
+    90% {
+      transform: scale(0.8, 1);
+    }
+    95% {
+      transform: scale(1.05, 1);
+    }
+    100% {
+      transform: scale(1, 1);
+    }
+  }

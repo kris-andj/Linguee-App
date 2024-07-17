@@ -1,0 +1,88 @@
+.profesor-detalji-container {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profesor-detalji-container img {
+    width: 600px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.profesor-detalji-container .info {
+    margin-top: 10px;
+    text-align: left;
+}
+
+.profesor-detalji-container .info h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.profesor-detalji-container .info p {
+    margin: 5px 0;
+    color: #03224b;
+    font-size: 30px;
+}
+
+.konsultacije-section {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.konsultacije-section h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.konsultacije-section p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.kalendar {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.kalendar input[type='date'],
+.kalendar input[type='time'],
+.kalendar button {
+    margin-bottom: 10px;
+    padding: 12px 24px;
+    font-size: 18px;
+}
+
+.kalendar button {
+    background-color: #F2B5D4;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.kalendar button:hover {
+    background-color: #7bdff2;
+}
+
+.kons-illustration {
+    max-width: 200%;
+    margin-bottom: 20px;
+}
+
+.error-message {
+    color: red;
+    font-size: 16px;
+    margin-top: 10px;
+}
+

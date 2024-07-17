@@ -1,0 +1,45 @@
+.upload {
+  text-align: center;
+  padding: 20px;
+  background-image: url('./Assets/lekcije-pozadina.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:contain;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+
+.upload h2 {
+  font-size: 3rem; 
+  margin-bottom: 20px; 
+  transform: translateY(-100px); 
+  margin-left: -30px;
+}
+
+.file-upload {
+  margin-top: -60px; 
+ 
+  
+}
+
+.upload-but {
+  background-color: #007bff;
+color: white;
+padding: 15px 20px; 
+border: none;
+border-radius: 5px;
+cursor: pointer;
+font-size: 0.8rem;
+margin-left: -70px;
+
+
+  
+}
+
+.upload-but:disabled {
+  background-color: #cccccc;
+}

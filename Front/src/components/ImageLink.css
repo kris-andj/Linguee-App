@@ -1,0 +1,19 @@
+.image-link-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .image-link {
+    cursor: pointer;
+    width: 200px; 
+    height: auto;
+    transition: transform 0.3s;
+  }
+  
+  .image-link:hover {
+    transform: scale(1.1); 
+  }
+  

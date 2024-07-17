@@ -1,0 +1,44 @@
+.gramatika-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gramatika-section {
+    margin-top: 40px;
+    width: 80%;
+    padding: 20px;
+    border: 1px solid #34c234;
+    margin-bottom: 40px;
+}
+
+.text-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-image h2, .text-image p {
+    flex: 1;
+    text-align: center; 
+}
+
+.image {
+    max-width: 100%; 
+    height: auto;
+    margin-top: 20px; 
+}
+
+@media only screen and (min-width: 960px) {
+    .text-image {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        text-align: left; 
+    }
+
+    .image {
+        max-width: 50%; 
+        margin-top: 0; 
+    }
+}
